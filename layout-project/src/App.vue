@@ -17,7 +17,7 @@ export default {
       cards: [{
         id: 1,
         status: 'круглый год',
-        image: '@/assets/stPet.png',
+        image: 'stPet.png',
         title: 'АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2019',
         content: ['Билет на целый день', 
         'Неограниченное число катаний', 
@@ -29,7 +29,7 @@ export default {
         {
         id: 2,
         status: 'Новинка',
-        image: '@/assets/stPet.png',
+        image: 'stPet.png',
         title: 'АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2019',
         content: ['Билет на целый день', 
         'Неограниченное число катаний', 
@@ -40,7 +40,7 @@ export default {
         pierPrice: null},
         {
         id: 3,
-        image: '@/assets/stPet.png',
+        image: 'stPet.png',
         title: 'АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2019',
         content: ['Билет на целый день', 
         'Неограниченное число катаний', 

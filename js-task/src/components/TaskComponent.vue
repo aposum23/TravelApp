@@ -56,6 +56,9 @@ export default {
     changeDirection(){
       const timeA = document.getElementById('time-a');
       const timeB = document.getElementById('time-b');
+
+      this.result = '';
+
       switch (this.direction){
         case '1':
           timeA.style.display = 'inline-block';
@@ -74,6 +77,8 @@ export default {
       }
     },
     changeTimeSelect(){
+      this.result = '';
+
       if (this.direction === '3'){  
         this.calculateTimeArrays();
       }
@@ -141,6 +146,8 @@ export default {
         this.timesReservB = this.timesReservB.map(elem => this.changeTimeForTimeZone(elem, timeAddition));
       }
       this.timesB2A = this.timesReservB;
+      this.timeA = this.timesA2B[0];
+      this.timeB = this.timesB2A.at(-1);
     }
 }
 </script>

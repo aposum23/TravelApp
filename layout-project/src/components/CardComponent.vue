@@ -4,7 +4,7 @@
       <div class="mt-4 ms-2 text-center status-block" v-if="cardInformation.status">
         <h3 class="mt-1">{{cardInformation.status.toUpperCase()}}</h3>
       </div>
-      <img src="@/assets/stPet.png" class="col-12 col-lg-5 image"/>
+      <img :src="require('@/assets/' + cardInformation.image)" class="col-12 col-lg-5 image"/>
       <div class="content col-12 col-lg-7">
         <div class="row mt-1 d-lg-none">
           <div class="col-12">
